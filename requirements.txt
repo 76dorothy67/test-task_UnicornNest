@@ -1,0 +1,10 @@
+ai-microcore
+openai
+python-dotenv
+aiohttp~=3.9.3
+rich
+chromadb==0.4.18
+colorama
+
+
+pandas~=2.2.0
