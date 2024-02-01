@@ -1,6 +1,5 @@
 import pandas as pd
 import microcore as mc
-from articles import *
 
 mc.configure(
     # DOT_ENV_FILE='.env.test.anyscale-7b'

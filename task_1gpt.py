@@ -10,7 +10,7 @@ for i in range(len(df_articles)):
 
     mc.use_logging()
     json_response = mc.llm(f"""
-    here is article {df_articles.loc[i, 'text']}.
+    here is an article {df_articles.loc[i, 'text']}.
     You need to extract the following data from this articles:
 
     Startup Name

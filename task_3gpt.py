@@ -1,6 +1,5 @@
 import pandas as pd
 import microcore as mc
-from articles import *
 
 df_startups = pd.read_csv('startups.csv')
 df_industries = pd.read_csv('industries.csv')
