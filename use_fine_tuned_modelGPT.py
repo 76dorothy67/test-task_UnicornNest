@@ -37,5 +37,5 @@ def get_data(fine_tuned_name):
     df_articles.to_csv('10__articles.csv', index=False)
 
 if __name__ == "__main__":
-    fine_tuned_model="ft:gpt-3.5-turbo-0613:personal::8nTJsGtc"
+    fine_tuned_model="name_of_model"
     get_data(fine_tuned_model)
